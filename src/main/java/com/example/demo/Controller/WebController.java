@@ -37,7 +37,7 @@ public class WebController {
 
     @RequestMapping("/selectInfo")
     public String selectInfo(){
-
+        System.out.println("jenkinsTest");
         return "info";
     }
 }
